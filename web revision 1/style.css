@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+div.main{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgb(0,0,0,0.75)), url("images/home.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+ul li{
+    list-style:none;
+    display: inline;
+    margin-left:20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.logo{
+    width: 75px;
+    height:75px;
+    cursor:pointer;
+    border-style: solid;
+    border-color: rgb(15, 112, 204);
+    border-radius: 50%;
+    position: relative;
+}
+.navbar{
+    width:85%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-top:25px;
+    margin: 0 100px;
+}
+.content{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    width: 100%;
+}
+button {
+    width: 100px;
+    padding: 15px;
+    border-style: solid;
+    border-color: rgb(5, 146, 134);
+    color: white;
+    background: transparent;
+    margin: 20px 10px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+button:hover {
+    background: rgb(5, 146, 134);
+    color: white;
+}
+.gallery-box{
+	padding: 70px 0px;
+}
+.tz-gallery{
+	margin-top: 30px;
+}
+.tz-gallery .lightbox img {
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+.tz-gallery .lightbox{
+	border: 3px solid #d65106;
+	display: inline-block;
+	margin-bottom: 30px;
+}
